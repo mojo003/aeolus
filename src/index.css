@@ -8,7 +8,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  background-color: #5a93d1;
+  background-color: #343a40;
  
 }
 
@@ -22,18 +22,34 @@ code {
 ******/
 .header {
   display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 2%;
   flex-direction: column;
   align-items: center;
 }
 
 
-.header img {
-  width: 100%;
-
+.logo {
+  line-height: 1.5em;
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
 }
 
-.h4_header {
-  color: white;
+@keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.logo {
+  -webkit-animation: fadein 2s ease-in;
+  -moz-animation: fadein 2s ease-in;
+  animation: fadein 2s ease-in;
 }
 
 
@@ -42,6 +58,27 @@ code {
 * Nav
 ******/
 
-.nav img {
-  width: 50px;
+.nav_bar {
+  position: sticky;
+  width: 100%;
+
+}
+
+/******
+* Mission
+******/
+
+.div_mission {
+  text-align: center;
+  color: whitesmoke;
+  background-color: #364859;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 15px 50px 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.h1, .p_mission {
+  padding: 3%;
 }
