@@ -5,6 +5,7 @@ import Menu from './components/nav.js';
 import Presentation from './components/presentation.js';
 import Bio from './components/bio.js';
 
+
 function App() {
   return (
     <div >
@@ -12,6 +13,7 @@ function App() {
       <Menu />
       <Presentation />
       <Bio />
+
     </div>
   );
 }

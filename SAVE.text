@@ -1,19 +1,9 @@
-import React from 'react';
-import '../index.css';
-import Carousel from 'react-bootstrap/Carousel';
-import denis from '../img/denis.jpg';
-import nicolas from '../img/nicolas.jpg';
-import magellan from '../img/magellan.jpg';
-import jonathan from '../img/jonathan.jpg';
-import justin from '../img/justin.jpg';
-
-
 class Bio extends React.Component{
 
   render(){
       return(
 
-        <Carousel>
+        <Carousel fade>
                 <Carousel.Item>
                     <img
                         className="carroussel-img" 
@@ -79,7 +69,4 @@ class Bio extends React.Component{
       )
   }
   
-  
 }
-
-export default Bio;
