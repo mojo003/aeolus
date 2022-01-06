@@ -114,6 +114,14 @@ code {
 * Caroussel
 ******/
 
+.pointer {
+  cursor: pointer;
+}
+
+.hoverImg:hover {
+  transform: scale(1.1);
+}
+
 .carroussel-img {
   display: flex;
   width: 100%;
@@ -160,3 +168,45 @@ code {
 
 }
 
+
+
+/*Modal design*/
+
+.modalBlurTrp1 {
+  background-image: url(./img/trumpet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.modalBlurHorn {
+  background-image: url(./img/horn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.modalBlurTrb {
+  background-image: url(./img/trb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.modalBlurTrbb {
+  background-image: url(./img/trbb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+
+.modal_background {
+  background-color: #364859;
+  color: white;
+}
+
+.modalBody {
+  background-color: #364859;
+  color: white;
+}

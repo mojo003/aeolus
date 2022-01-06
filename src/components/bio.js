@@ -1,6 +1,10 @@
 import React from 'react';
 import '../index.css';
+//Bootstrap import
 import Carousel from 'react-bootstrap/Carousel';
+
+
+//image pour musiciens
 import denis from '../img/denis.jpg';
 import nicolas from '../img/nicolas.jpg';
 import magellan from '../img/magellan.jpg';
@@ -10,7 +14,17 @@ import justin from '../img/justin.jpg';
 
 class Bio extends React.Component{
 
+    //Text Bio event pour les musiciens
+    trp1Click = (e) => {
+        e.preventDefault();
+        
+      };
+
   render(){
+
+
+
+    
       return(
 
         <Carousel>
@@ -27,14 +41,14 @@ class Bio extends React.Component{
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img
+                    <img onClick={this.trp1Click}
                         className="carroussel-img"
                         src= {nicolas}
                         alt="Nicolas Leblanc"
-                    /> 
+                         /> 
                 <Carousel.Caption>
-                    <h3>Nicolas Leblanc</h3>
-                    <p>Trompette</p>
+                    <h3 onClick={this.trp1Click}>Nicolas Leblanc</h3>
+                    <p onClick={this.trp1Click}>Trompette</p>
                 </Carousel.Caption>
                 </Carousel.Item>
                 

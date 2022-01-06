@@ -3,7 +3,7 @@ import Header from './components/header';
 import './App.css';
 import Menu from './components/nav.js';
 import Presentation from './components/presentation.js';
-import Bio from './components/bio.js';
+import BioText from './components/bio_text';
 
 
 function App() {
@@ -12,8 +12,7 @@ function App() {
       <Header />
       <Menu />
       <Presentation />
-      <Bio />
-
+      <BioText />
     </div>
   );
 }
