@@ -52,6 +52,32 @@ code {
   animation: fadein 2s ease-in;
 }
 
+@media (min-width: 320px) { 
+  
+  .header {
+    margin-top: 8%;
+  }
+  
+}
+
+
+@media (min-width: 360px) { 
+  
+  .header {
+    margin-top: 6%;
+  }
+
+}
+
+@media (min-width: 992px) { 
+  
+  .header {
+    margin-top: 2%;
+  }
+
+}
+
+
 
 
 /******
@@ -63,6 +89,7 @@ code {
   width: 100%;
 
 }
+
 
 /******
 * Mission
@@ -81,4 +108,105 @@ code {
 
 .h1, .p_mission {
   padding: 3%;
+}
+
+/******
+* Caroussel
+******/
+
+.pointer {
+  cursor: pointer;
+}
+
+.hoverImg:hover {
+  transform: scale(1.1);
+}
+
+.carroussel-img {
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 2%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-control-prev {
+  cursor: pointer;
+}
+
+.carousel-control-next {
+  cursor: pointer;
+}
+
+
+@media (min-width: 1200px) {
+
+  .carroussel-img {
+    display: flex;
+    width: 50%;
+    height: auto;
+    position: relative;
+    margin-top: 2%;
+    margin-right: 25%;
+    margin-left: 25%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px 50px 50px 50px;
+  }
+
+  .carousel-control-prev {
+    margin-left: 20%;
+    cursor: pointer;
+  }
+  
+  .carousel-control-next {
+    margin-right: 20%;
+    cursor: pointer;
+  }
+
+}
+
+
+
+/*Modal design*/
+
+.modalBlurTrp1 {
+  background-image: url(./img/trumpet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.modalBlurHorn {
+  background-image: url(./img/horn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.modalBlurTrb {
+  background-image: url(./img/trb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.modalBlurTrbb {
+  background-image: url(./img/trbb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+
+.modal_background {
+  background-color: #364859;
+  color: white;
+}
+
+.modalBody {
+  background-color: #364859;
+  color: white;
 }
