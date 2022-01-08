@@ -29,4 +29,4 @@ function Form() {
     </div>
   ]
 }
-export default From
+export default Form

@@ -7,7 +7,7 @@ import React, { useState } from "react";
 //Bootstrap import
 import Carousel from 'react-bootstrap/Carousel';
 import Modal from 'react-bootstrap/Modal';
-import Button from 'react-bootstrap/Modal';
+
 
 //image pour musiciens
 import denis from '../img/denis.jpg';
