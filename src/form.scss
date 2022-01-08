@@ -43,6 +43,7 @@
       top: -30px;
       left: 0;
       color: #4295ec;
+      font-weight: bold;
   }
 
   label[for="lastName"]{
@@ -50,22 +51,49 @@
       top: -30px;
       right: 100px;
       color: #4295ec;
+      font-weight: bold;
   }
 
   
 }
 
+.phoneLabel {
+  color: #4295ec;
+  font-weight: bold;
+}
+
+.messageLabel {
+  color: #4295ec;
+  font-weight: bold;
+}
+
+.emailLabel {
+  color: #4295ec;
+  font-weight: bold;
+}
+
 .email{
   width: 50%;
-  margin: 0 0 20px 35px;
+  margin: 0 0 20px 20px;
   height: 40px;
   padding: 15px;
   font-style: italic;
   border: 2px solid #434753;
-  background: transparent;
+  background: white;
   color: #434753;
   outline-color: #FFD6BA;
+}
 
+.phone {
+  width: 50%;
+  margin: 0 0 20px 20px;
+  height: 40px;
+  padding: 15px;
+  font-style: italic;
+  border: 2px solid #434753;
+  background: white;
+  color: #434753;
+  outline-color: #FFD6BA;
 }
 
 
@@ -76,12 +104,12 @@ label:not(#nameLabel){
 
 .message{
   width: 80%;
-  margin: 0 35px;
+  margin: 0 20px;
   height: 100px;
   padding: 15px;
   font-style: italic;
   border: 2px solid #434753;
-  background: transparent;
+  background: white;
   color: #434753;
   outline-color: #FFD6BA;
 }
@@ -91,7 +119,8 @@ label:not(#nameLabel){
   margin: 30px 35px;
   height: 40px;
   border: none;
-  background: #434753;
-  color: #FFD6BA;
+  background: #4295ec;
+  color: white;
+  font-weight: bold;
   cursor: pointer;
 }
