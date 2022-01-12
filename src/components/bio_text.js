@@ -22,6 +22,8 @@ import justin from '../img/justin.jpg';
 
 
 function BioText(props) {
+
+    
     // use state pour les biographies
     //Trompette 1
     const [showModalN, setShowN] = useState(false);
@@ -50,7 +52,7 @@ function BioText(props) {
     
   return (
     <>
-       <Carousel>
+       <Carousel id="bio">
                 <Carousel.Item className='hoverImg pointer'>
                     <img onClick={handleShowF}
                         className="carroussel-img" 

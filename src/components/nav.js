@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import Bio_text from "./bio_text";
 
 const Menu = () =>{
     return (
@@ -9,7 +10,7 @@ const Menu = () =>{
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className='mr-auto'>
-              <Nav.Link href="#home">Biographie</Nav.Link>
+              <Nav.Link href="#Bio_text">Biographie</Nav.Link>
               <Nav.Link href="#link">Calendrier</Nav.Link>
             </Nav>
           </Navbar.Collapse>

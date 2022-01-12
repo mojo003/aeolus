@@ -97,13 +97,14 @@ code {
 
 .div_mission {
   text-align: center;
-  color: whitesmoke;
+  color: #4295ec;
+  font-weight: bold;
   background-color: #364859;
-  margin-top: 2%;
+  /*margin-top: 2%;
   margin-left: 20%;
   margin-right: 20%;
   border-radius: 15px 50px 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .h1, .p_mission {
@@ -209,4 +210,25 @@ code {
 .modalBody {
   background-color: #364859;
   color: white;
+}
+
+/******
+* Footer
+******/
+
+.footer {
+  align-items: center;
+  color: #4295ec;
+
+}
+
+.logoFooter {
+  width: 20%;
+  margin: 2% 2% 2% 2%;
+}
+
+.textFooter {
+  text-align: center;
+  margin-top: 2.5%;
+  
 }
